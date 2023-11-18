@@ -1,5 +1,5 @@
 
-const Questions = require('./QuestionStore.js');
+const Questions = require(__dirname+'/QuestionStore.js');
 
 // Function to generate a question paper based on specified requirements
 const generateQuestionPaper = (totalMarks, difficultyDistribution) => {

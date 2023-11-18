@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 3001;
-const {generateQuestionPaper}=require('./GenerateQuestionPaper.js')
+const {generateQuestionPaper}=require(__dirname+'/GenerateQuestionPaper.js')
 
 
 app.use(cors());
