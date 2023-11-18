@@ -1,0 +1,25 @@
+.question-container {
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    width:80%;
+  }
+  
+  .question {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  
+  .question-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .question-details p {
+    margin: 5px 0;
+  }
