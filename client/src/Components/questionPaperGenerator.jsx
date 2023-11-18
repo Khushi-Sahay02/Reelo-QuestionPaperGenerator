@@ -13,7 +13,7 @@ const QuestionPaperGenerator = () => {
 
   const generateQuestionPaper = async () => {
     try {
-      const response = await fetch('http://localhost:5000/generate-question-paper', {
+      const response = await fetch('https://reelo-backend-server.onrender.com/generate-question-paper', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
